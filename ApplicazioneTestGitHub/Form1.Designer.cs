@@ -30,12 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(126, 142);
+            this.label1.Location = new System.Drawing.Point(117, 142);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 15);
             this.label1.TabIndex = 0;
@@ -43,18 +44,28 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(261, 173);
+            this.button1.Location = new System.Drawing.Point(500, 98);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(146, 59);
             this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(198, 219);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 15);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Bellissimo!!!";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -68,5 +79,6 @@
 
         private Label label1;
         private Button button1;
+        private Label label2;
     }
 }
